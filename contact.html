@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto - FLAGG GAMING</title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <style>
+        /* Estilos personalizados para la sección de contacto */
+        #contact {
+            background-color: #f8f9fa; /* Color de fondo suave */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+        #contact form {
+            max-width: 600px; /* Ancho máximo del formulario */
+            margin: 0 auto; /* Centrar el formulario horizontalmente */
+        }
+        #contact form .form-control {
+            background-color: #f5f5f5; /* Color de fondo del campo de entrada */
+            border-color: #ddd; /* Color del borde */
+            color: #555; /* Color del texto */
+        }
+        #contact form .btn-primary {
+            background-color: #007bff; /* Color de fondo del botón */
+            border-color: #007bff; /* Color del borde del botón */
+        }
+        #contact form .btn-primary:hover {
+            background-color: #0056b3; /* Color de fondo del botón al pasar el cursor */
+            border-color: #0056b3; /* Color del borde del botón al pasar el cursor */
+        }
+        #contact h5 {
+            margin-top: 30px; /* Espacio superior para el título de ubicación */
+        }
+        /* Estilos responsivos para el mapa de Google */
+        @media (max-width: 768px) {
+            #contact iframe {
+                width: 100%;
+                height: 300px; /* Altura ajustada para dispositivos móviles */
+            }
+        }
+    </style>
+</head>
+<body>
+
+        <!-- Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+            <a class="navbar-brand text-light" href="index.html">
+                <img src="logo.png" alt="FLAGG GAMING" width="30" height="30" class="d-inline-block align-top">
+                FLAGG GAMING
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="about.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="services.html">Servicios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="testimonials.html">Testimonios</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-light" href="contact.html">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+    <!-- Contact Section -->
+    <section id="contact" class="container text-center p-5">
+        <h2>Contacto</h2>
+        <form>
+            <div class="form-group">
+                <input type="text" class="form-control" id="name" placeholder="Nombre" required>
+            </div>
+            <div class="form-group">
+                <input type="email" class="form-control" id="email" placeholder="Email" required>
+            </div>
+            <div class="form-group">
+                <textarea class="form-control" id="message" rows="4" placeholder="Mensaje" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        </form>
+
+        <div class="mt-5">
+            <h5>Ubicación</h5>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3151.4044959988535!2d-58.3985751!3d-34.6043425!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccaea670d4e67%3A0x2198c954311ad6d9!2sDa%20Vinci%20%7C%20Primera%20Escuela%20de%20Arte%20Multimedial!5e0!3m2!1ses!2scl!4v1624187415603!5m2!1ses!2scl" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="footer text-center">
+        <div class="container">
+            <p>&copy; 2023 FLAGG GAMING. Todos los derechos reservados.</p>
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="services.html">Servicios</a></li>
+                <li class="list-inline-item"><a href="testimonials.html">Testimonios</a></li>
+                <li class="list-inline-item"><a href="contact.html">Contacto</a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.4/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
