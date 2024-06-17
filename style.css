@@ -3,7 +3,8 @@ body {
 }
 
 h1, h2 {
-    color: #333;
+    /*color: #333;*/
+    background-color: #f41c34;
 }
 
 section {
@@ -78,3 +79,4 @@ section {
 .team-photo:hover {
     transform: scale(1.1);
 }
+

@@ -17,43 +17,61 @@
             display: block;
             margin: 0 auto; /* Centrar la imagen horizontalmente */
         }
+        /* Estilos para la sección de empresas */
+        .trusted-companies {
+            padding: 2rem 0;
+            background-color: #f8f9fa;
+        }
+
+            .trusted-companies h3 {
+                margin-bottom: 1.5rem;
+            }
+
+            .trusted-companies img {
+                max-width: 80px; /* Tamaño ajustado */
+                margin: 0 1rem;
+            }
     </style>
 </head>
 <body>
 
-        <!-- Navbar -->
-        <nav class="navbar navbar-expand-lg navbar-light bg-danger">
-            <a class="navbar-brand text-light" href="index.html">
-                <img src="logo.png" alt="FLAGG GAMING" width="30" height="30" class="d-inline-block align-top">
-                FLAGG GAMING
-            </a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav ml-auto">
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="index.html">Home</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="about.html">About</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="services.html">Servicios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="testimonials.html">Testimonios</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link text-light" href="contact.html">Contacto</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-danger">
+        <a class="navbar-brand text-light" href="index.html">
+            <img src="logo.png" alt="FLAGG GAMING" width="30" height="30" class="d-inline-block align-top">
+            FLAGG GAMING
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ml-auto">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="index.html">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="about.html">Nosotros</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="services.html">Servicios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="testimonials.html">Testimonios</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="contact.html">Contacto</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
 
     <!-- Testimonials Section -->
     <section id="testimonials" class="container text-center p-5">
-        <h2>Testimonios</h2>
+        <div class="row mb-2">
+            <div class="col border rounded-lg bg-danger">
+                <h2 class="text-light">Testimonios</h2>
+            </div>
+        </div>
         <p>Lo que nuestros clientes dicen sobre nosotros:</p>
         <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
             <ol class="carousel-indicators">
@@ -101,13 +119,27 @@
         </div>
     </section>
 
+    <!-- Trusted Companies Section -->
+    <section class="trusted-companies text-center">
+        <div class="container">
+            <h3>Estas empresas confían en nosotros</h3>
+            <div class="d-flex justify-content-center align-items-center">
+                <img src="empresa1.jpg" alt="Empresa 1">
+                <img src="empresa2.png" alt="Empresa 2">
+                <img src="empresa3.png" alt="Empresa 3">
+                <img src="empresa4.jpg" alt="Empresa 4">
+                <img src="empresa5.jpg" alt="Empresa 5">
+            </div>
+        </div>
+    </section>
+
     <!-- Footer Section -->
     <footer class="footer text-center">
         <div class="container">
             <p>&copy; 2024 FLAGG GAMING. Todos los derechos reservados.</p>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="index.html">Home</a></li>
-                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="about.html">Nosotros</a></li>
                 <li class="list-inline-item"><a href="services.html">Servicios</a></li>
                 <li class="list-inline-item"><a href="testimonials.html">Testimonios</a></li>
                 <li class="list-inline-item"><a href="contact.html">Contacto</a></li>

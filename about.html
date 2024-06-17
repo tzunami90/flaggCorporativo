@@ -8,6 +8,15 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap">
     <link rel="stylesheet" href="styles.css">
+    <style>
+        #about {
+            background-color: #f8f9fa; /* Color de fondo suave */
+            border-radius: 10px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1); /* Sombra suave */
+            padding: 50px 20px;
+            margin-top: 50px;
+        }
+    </style>
 </head>
 <body>
 
@@ -26,7 +35,7 @@
                     <a class="nav-link text-light" href="index.html">Home</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link text-light" href="about.html">About</a>
+                    <a class="nav-link text-light" href="about.html">Nosotros</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link text-light" href="services.html">Servicios</a>
@@ -42,57 +51,76 @@
     </nav>
 
 <!-- About Section -->
-<section id="about" class="container text-center p-5">
-    <h2>Sobre Nosotros</h2>
-    <p class="lead">
-        Nuestra misión es ayudar a los usuarios argentinos a encontrar los videojuegos más económicos y conocer el precio real incluyendo impuestos y tipo de cambio. También ofrecemos pronósticos de precios futuros mediante el IPC estimado.
-    </p>
-    <p class="lead">
-        Entregamos a las tiendas y emprendedores físicos la posibilidad de publicar sus productos para alcanzar a más usuarios.
-    </p>
+       <section id="about" class="container text-center p-5">
+            <div class="row mb-2">
+                <div class="col border rounded-lg bg-danger">
+                    <h2 class="text-light">Sobre Nosotros</h2>
+                </div>
+            </div>
+           <p class="lead">
+               Nuestro objetivo es ayudar a los usuarios argentinos a encontrar los videojuegos más económicos y conocer el precio real incluyendo impuestos y tipo de cambio. También ofrecemos pronósticos de precios futuros mediante el IPC estimado.
+           </p>
+           <p class="lead">
+               Entregamos a las tiendas y emprendedores físicos la posibilidad de publicar sus productos para alcanzar a más usuarios.
+           </p>
 
-    <h2>El Equipo</h2>
-    <div class="row mt-5">
-        <div class="col-md-4 mb-4">
-            <img src="alejandro.jpg" alt="Alejandro Solodujin" class="img-fluid rounded-circle mb-3 team-photo">
-            <h5>Alejandro Solodujin</h5>
-            <p>Desarrollador Mobile Android</p>
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="gaston.jpg" alt="Angel Gastón Mansilla" class="img-fluid rounded-circle mb-3 team-photo">
-            <h5>Angel Gastón Mansilla</h5>
-            <p>Desarrollador Web</p>
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="lucas.jpg" alt="Lucas Marenco" class="img-fluid rounded-circle mb-3 team-photo">
-            <h5>Lucas Marenco</h5>
-            <p>Diseñador Gráfico</p>
-        </div>
-    </div>
-    <div class="row justify-content-center">
-        <div class="col-md-4 mb-4">
-            <img src="german.jpg" alt="Germán Pardo" class="img-fluid rounded-circle mb-3 team-photo">
-            <h5>Germán Pardo</h5>
-            <p>Comercial y PM</p>
-        </div>
-        <div class="col-md-4 mb-4">
-            <img src="franco.jpg" alt="Franco Ouro" class="img-fluid rounded-circle mb-3 team-photo">
-            <h5>Franco Ouro</h5>
-            <p>Desarrollador Fullstack</p>
-        </div>
-    </div>
+           <h2>El Equipo</h2>
+           <div class="row mt-5">
+               <div class="col-md-4 mb-4">
+                   <img src="alejandro.jpg" alt="Alejandro Solodujin" class="img-fluid rounded-circle mb-3 team-photo">
+                   <h5>Alejandro Solodujin</h5>
+                   <p>Desarrollador Mobile Android</p>
+               </div>
+               <div class="col-md-4 mb-4">
+                   <img src="gaston.jpg" alt="Angel Gastón Mansilla" class="img-fluid rounded-circle mb-3 team-photo">
+                   <h5>Angel Gastón Mansilla</h5>
+                   <p>Desarrollador Web</p>
+               </div>
+               <div class="col-md-4 mb-4">
+                   <img src="lucas.jpg" alt="Lucas Marenco" class="img-fluid rounded-circle mb-3 team-photo">
+                   <h5>Lucas Marenco</h5>
+                   <p>Diseñador Gráfico</p>
+               </div>
+           </div>
+           <div class="row justify-content-center">
+               <div class="col-md-4 mb-4">
+                   <img src="german.jpg" alt="Germán Pardo" class="img-fluid rounded-circle mb-3 team-photo">
+                   <h5>Germán Pardo</h5>
+                   <p>Comercial y PM</p>
+               </div>
+               <div class="col-md-4 mb-4">
+                   <img src="franco.jpg" alt="Franco Ouro" class="img-fluid rounded-circle mb-3 team-photo">
+                   <h5>Franco Ouro</h5>
+                   <p>Desarrollador Fullstack</p>
+               </div>
+           </div>
 
-    <h2>Visión</h2>
-    <p>Nuestra visión es ser la plataforma líder en Argentina para la comparación de precios de videojuegos y hardware gamer, brindando a los usuarios la información más precisa y confiable para tomar decisiones de compra informadas. Aspiramos a fomentar una economía local saludable al apoyar a tiendas físicas y emprendedores, promoviendo la transparencia y la equidad en el mercado.
-    </p>
-    <h2>Valores</h2>
-    <p>Transparencia: Comprometidos con la claridad y la honestidad en todas nuestras operaciones y comunicaciones.</p>
-    <p>Innovación: Fomentamos la creatividad y la mejora continua en todas nuestras actividades.</p>
-    <p>Responsabilidad: Actuamos con integridad y responsabilidad social, considerando el impacto de nuestras decisiones en la comunidad y el medio ambiente.</p>
-    <p>Inclusión: Promovemos la diversidad y la accesibilidad, asegurando que nuestra plataforma sea usable para todos.</p>
-    <p>Profesionalismo: Mantenemos altos estándares de conducta y calidad en todo nuestro trabajo.</p>
-    <p>Compromiso: Nos dedicamos al bienestar de nuestros usuarios y al éxito de las tiendas y emprendedores que apoyamos.</p>
-</section>
+           <h2>Nuestra historia</h2>
+           <p>
+               FLAGG GAMING nace en la Escuela Da Vinci, cuando cinco estudiantes apasionados por los videojuegos y la tecnología decidieron desarrollar un proyecto de tesis innovador. Alejandro Daniel Solodujin, Franco Ouro, Angel Gastón, Lucas Marenco y Germán Dario Pardo compartían una visión común: facilitar a los gamers argentinos la búsqueda de los mejores precios en videojuegos y hardware, optimizando y facilitando su experiencia de compra.
+           </p>
+           <p>
+               Durante uno de los últimos cuatrimestres de su carrera, estos cinco estudiantes comenzaron a conceptualizar una plataforma que no solo permitiría comparar precios en tiempo real de las principales tiendas oficiales, como Steam y Epic Games, sino que también incluiría impuestos y el tipo de cambio actualizado para proporcionar un precio final realista. Además, la plataforma ofrecería una herramienta para predecir futuros precios mediante índices de precios al consumidor (IPC) estimados, añadiendo un valor único a su propuesta.
+           </p>
+           <p>
+               El proyecto, inicialmente concebido como una tesis, rápidamente se transformó en algo más grande. Los estudiantes vieron en FLAGG GAMING una oportunidad para no solo destacar académicamente, sino también para crear una herramienta útil y potencialmente lucrativa. Su formación en tecnologías como C#, Java, HTML, CSS, SQL y su experiencia como consumidores de videojuegos y hardware les proporcionaron las habilidades necesarias para llevar a cabo este proyecto.
+           </p>
+           <h2>Misión</h2>
+           <p>
+               Nuestra misión es revolucionar la experiencia de compra de videojuegos para los usuarios argentinos. Nos dedicamos a ofrecer una plataforma innovadora que permite a los gamers comparar precios en tiempo real de las tiendas oficiales más reconocidas, como Steam y Epic Games, asegurando siempre el mejor precio posible, incluyendo impuestos y el tipo de cambio actualizado. No solo proporcionamos la mejor herramienta para encontrar videojuegos económicos, sino que también ayudamos a prever futuros precios mediante el uso de índices de precios al consumidor (IPC) estimados.
+           </p>
+           <h2>Visión</h2>
+           <p>
+               Nuestra visión es ser la plataforma líder en Argentina para la comparación de precios de videojuegos y hardware gamer, brindando a los usuarios la información más precisa y confiable para tomar decisiones de compra informadas. Aspiramos a fomentar una economía local saludable al apoyar a tiendas físicas y emprendedores, promoviendo la transparencia y la equidad en el mercado.
+           </p>
+           <h2>Valores</h2>
+           <p>Transparencia: Comprometidos con la claridad y la honestidad en todas nuestras operaciones y comunicaciones.</p>
+           <p>Innovación: Fomentamos la creatividad y la mejora continua en todas nuestras actividades.</p>
+           <p>Responsabilidad: Actuamos con integridad y responsabilidad social, considerando el impacto de nuestras decisiones en la comunidad y el medio ambiente.</p>
+           <p>Inclusión: Promovemos la diversidad y la accesibilidad, asegurando que nuestra plataforma sea usable para todos.</p>
+           <p>Profesionalismo: Mantenemos altos estándares de conducta y calidad en todo nuestro trabajo.</p>
+           <p>Compromiso: Nos dedicamos al bienestar de nuestros usuarios y al éxito de las tiendas y emprendedores que apoyamos.</p>
+       </section>
 
 
     <!-- Footer Section -->
@@ -101,7 +129,7 @@
             <p>&copy; 2024 FLAGG GAMING. Todos los derechos reservados.</p>
             <ul class="list-inline">
                 <li class="list-inline-item"><a href="index.html">Home</a></li>
-                <li class="list-inline-item"><a href="about.html">About</a></li>
+                <li class="list-inline-item"><a href="about.html">Nosotros</a></li>
                 <li class="list-inline-item"><a href="services.html">Servicios</a></li>
                 <li class="list-inline-item"><a href="testimonials.html">Testimonios</a></li>
                 <li class="list-inline-item"><a href="contact.html">Contacto</a></li>
